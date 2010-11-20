@@ -27,8 +27,35 @@ package com.bbwaw.core;
 
 /**
  * @author Web@Work websolutions
- *
+ * @since 1.0.0
  */
-public class WWObserver {
+public class WWNotification implements IWWNotification {
+	
+	private final Object object;
+	
+	private final Object propertyId;
+	
+	public WWNotification ( Object o, Object id) {
+		
+		this.object = o;
+		this.propertyId = id;
+	}
 
+	/**
+	 * Get the object
+	 * @return Object
+	 */
+    public Object getObject()
+    {
+    	return object;
+    }
+
+    /**
+     * Get the property object
+     * @return Object
+     */
+    public Object getPropertyId()
+    {
+    	return propertyId;
+    }	
 }

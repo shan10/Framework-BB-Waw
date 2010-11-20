@@ -1,0 +1,31 @@
+<loader version="1.0">
+	<application id="Framework_BBWAW">
+		<name >
+			
+		</name>
+		<description >
+			Framework for creating smartphone apps 
+		</description>
+		<version >
+			0.0.1
+		</version>
+		<vendor >
+			Web@Work websolutions
+		</vendor>
+		<copyright >
+			Copyright (c) 2010 Web@Work websolutions
+		</copyright>
+		<fileset Java="1.49" _blackberryVersion="[5.0.0)">
+			<directory >
+				5.0.0
+			</directory>
+			<files >
+				Framework_BBWAW.cod
+
+			</files>
+
+		</fileset>
+
+	</application>
+
+</loader>
